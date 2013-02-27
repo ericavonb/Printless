@@ -1,0 +1,142 @@
+/**CSS Stylesheet for Printless Mainpages */
+
+/*Basics*/
+body {
+    font-family: Verdana,Geneva,'DejaVu Sans',sans-serif;
+    font-size:1em;
+    color:#000;
+}
+
+body a {color:#000; text-decoration:none}
+body a:link {color:#000; text-decoration:none;}
+body a:visted {color:#333; text-decoration:none;}
+body a:hover {color:#C00; text-decoration:none;}
+body a:active {color:#333; text-decoration:none;}
+
+
+ul {list-style-type:none;}
+
+
+/*Top Navigation*/
+header {
+    background-color: #000;
+    position:absolute;
+    display:block;
+    width:100%;
+    height:30px;
+    top:0px;
+    left:0px;
+    color:#FFF;
+}
+header a {color:#FFF; text-decoration:none}
+header a:link {color:#FFF; text-decoration:none;}
+header a:visted {color:#333; text-decoration:none;}
+header a:hover {color:#C00; text-decoration:none;}
+header a:active {color:#333; text-decoration:none;}
+header .mainlinks li {
+    float:left;
+    margin-left:-35px;
+    margin-right:75px;
+}
+
+header .mainlinks {
+    display:block;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-6px;
+    text-transform:uppercase;
+    font-family:Verdana,Geneva,'DejaVu Sans',sans-serif;
+    font-size:14px;
+    
+}
+
+
+.container {
+    display: block;
+    width: 980px;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid;
+    border-color: #000;
+}
+
+.title {
+    display:block;
+    width:980px;
+    display:relative;
+}
+
+.gettinginvolved a {color:#000; text-decoration:none}
+.gettinginvolved a:link {color:#000; text-decoration:none;}
+.gettinginvolved a:visted {color:#333; text-decoration:none;}
+.gettinginvolved a:hover {color:#C00; text-decoration:none;}
+.gettinginvolved a:active {color:#333; text-decoration:none;}
+
+.gettinginvolved {
+    display:block;
+    top:20px;
+    right:10px;
+    margin-right:-45px;
+    margin-top:30px;
+}
+
+.gettinginvolved li {
+    float:right;
+    margin-right:50px;
+}
+
+
+#fund {
+    text-transform:uppercase;
+    color:#FF0000;
+}
+
+#signup {
+    font-style:italic;
+}
+
+.title h1 {
+    font-family: Helvetica, Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    font-size:55px;
+    margin-left:20px;
+}
+
+.title h2 {
+    font-family:Constantina,Georgia,'Nimbus Roman No9 L',serif;
+    color:#C00;
+    font-size:20px;
+    margin-left:200px;
+    margin-top:-30px;
+}
+
+.date {
+    font-family:'Courier New',Courier,'Nimbus Mono L',monospace;
+    float:right;
+}
+
+#wherenavgoes {
+    display:block;
+    background-color:#898989;
+    height:40px;
+    clear:both;
+    
+}
+
+.mainstuff {
+    text-align: center;
+    margin-bottom:300px;
+}
+
+footer li {
+display:inline;
+text-align:center;
+}
+
+footer {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+    text-align: center;
+}

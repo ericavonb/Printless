@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta name="description" content="Homepage for Printless">
+	<link href="css/temphomepagestyle.css" rel="stylesheet" type="text/css">
+		<link <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<title>Printless</title>
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{	
+	$('#contentwrapper').fadeIn(3500);
+}
+);
+</script>
+
+</head>
+<div id="contentwrapper">
+<body>
+	<div class="container">
+	<div class="header">
+	</div>
+	<div class="lowerpart">
+	<div class="content">
+		<p id="newtake">A new take on 
+		<span id="journalism">journalism<span id="period">.</span></span></p>
+		<p id="invite">To request an invitation when Printless launches and to get email updates, enter your email in below.</p>
+		
+		<div class="journalist"><p id="q">Are you a journalist?</p>
+			<form id="yes" method="post"> <input type="radio" name="journalist" value="yes"/> Yes
+				<form id="no" method="post"> <input  type="radio" name="journalist" value="no"/> No
+					</form>
+		</div>
+		
+		<div class="emailcont">
+			<form method="post">
+				<input id="email" type="text" name="q" size="25" maxlength="255" value="" placeholder=" Email address..."/>
+				<input id="submit" type="submit" value="Submit"/>
+			</form>
+		</div>
+			<div class="links">
+					<a id="contact" href="#">contact</a>
+					<div id='log'><a id="login" href="#">Sign In</a></div>
+					<a id="twitter" href="https://twitter.com/#!/thePrintless"></a>
+						<a id="fb" href="https://www.facebook.com"></a>
+			</div>
+	</div>
+	</div>
+</div>
+</div>
+<div id="logInOverlay" class="overlay">
+  <div class="content">
+    <h1>Sign in</h1>
+    <button type="button" value="Close" class="cancel">X</button>
+    <form id="logForm" method="post">
+      <div id="usernameForm">
+        <label for="username">Username or Email</label>
+        <input type="text" id="username" name="username"/>
+        <p class="error">There is no Printless user with the name: <span id="wrongName">Username</span></p>
+      </div>
+      <div id="passwordForm">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"/>
+        <p class="error">Incorrect password.</p>
+      </div>
+      <div id="logInSubmit">
+        <input type="submit" value="Submit"/>
+      </div>
+    </form>
+    <ul class="otherOptions">
+      <li><a href="/forgot_password">Forgot password</a></li>
+      <li><a href="/forgot_username">Forgot username</a></li>
+    </ul>
+  </div><a href="/register" class="cornerBanner">Not a Printless user? Register now!</a>
+</div>
+<script>
+    $('#log > a').click(function(e) {
+      e.preventDefault();
+      return $('#logInOverlay').fadeIn();
+    });
+
+    $('.cancel').click(function(e) {
+      e.preventDefault();
+      return $('#logInOverlay').fadeOut();
+    });
+ </script>
+</body>

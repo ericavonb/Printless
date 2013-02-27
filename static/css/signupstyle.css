@@ -1,0 +1,235 @@
+body {
+    font-family: 'Questrial', Helvetica, Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    color:#3F3F3F;
+}
+
+
+body a {color:#3F3F3F; text-decoration:none}
+body a:link {color:#3F3F3F; text-decoration:none;}
+body a:visted {color:#333; text-decoration:none;}
+body a:hover {color:#B20606; text-decoration:none;}
+body a:active {color:#000; text-decoration:none;}
+
+.container {
+    width:960px;
+    top:-40px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    position:relative;
+
+}
+
+.outercontainer {
+    display:block;
+    width:960px;
+    height:120%;
+    left:50%;
+    top:-10px;
+    margin-left:-480px;
+    position:fixed;
+    -moz-box-shadow:    0px 0px 7px 4px #ccc;
+    -webkit-box-shadow: 0px 0px 7px 4px #ccc;
+    box-shadow:         0px 0px 7px 4px #ccc;
+    
+}
+.headcontainer {
+    display:block;
+    position:relative;
+    height:145px;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom:solid 1px #000;
+}
+
+#signin {
+    display:block;
+    position:absolute;
+    top:40px;
+    right:80px;
+}
+
+.toplinks {
+ float:right;
+ position:absolute;
+ top:-15px;
+ right:90px;
+}
+.toplinks li {
+    display:inline;
+    margin-left:20px;
+    margin-top:0px;
+}
+
+.logo {
+    display:block;
+    position:absolute;
+    left:20px;
+    top:40px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+#twitter {
+    display:block;
+    position:absolute;
+    right:0px;
+    top:30px;
+    width:25px;
+    height:25px;
+    background: url('/Users/michaeldesa/Dropbox/Printless/images/twitter_dualbw.png') left;
+    text-indent:-99999px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+#twitter:hover {
+    background-position: right;
+}
+
+#fb {
+    display:block;
+    position:absolute;
+    right:35px;
+    top:30px;
+    margin-left:10px;
+    width:25px;
+    height:25px;
+    background: url('/Users/michaeldesa/Dropbox/Printless/images/fb_dualbw.png') left;
+    text-indent:-99999px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+#fb:hover {
+    background-position: right;
+}
+
+
+.search {
+    display:block;
+    position:absolute;
+    bottom:-35px;
+    right:-19px;
+}
+
+#searchinput {
+    width:200px;
+    height:20px;
+    border-color:#CCC;
+    border-width:1px;
+    border-style:solid;
+}
+
+
+
+#searchbutton {
+    position:relative;
+    background: url('/Users/michaeldesa/Dropbox/Printless/images/searchicon.png') no-repeat;
+    width:15px;
+    height:19px;
+    border-style:none;
+    left:-30px;
+}
+
+
+.signupform h1 {
+    text-align:center;
+    border-bottom:solid 1px #000;
+    padding-bottom:10px;
+    position:relative;
+    top:-10px;
+    color:#000;
+    
+    
+}
+
+.signupform {
+    display: block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.formlabel {
+    display:block;
+    position:absolute;
+    width:200px;
+    text-align:left;
+    margin:20px;
+    top:0px;
+    left:0px;
+    font-style: italic;
+}
+
+.field {
+    display:block;
+    width:100%;
+    height:50px;
+    position:relative;
+}
+
+#user_name, #user_email, #user_password, #user_password_confirmation {
+    width:200px;
+    height:20px;
+    display:block;
+    position:absolute;
+    top:15px;
+    right:15px;
+    background-color:#EFEFEF;
+    border-style:none;
+}
+#user_name:focus, #user_email:focus, #user_password:focus, #user_password_confirmation:focus, #searchinput:focus{
+    background-color:white;
+    outline: none;
+    border:solid 1px #000;
+} 
+
+.actions {
+    display:block;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.actions input {
+    display:block;
+    position:relative;
+    left:42%;
+    border:solid 3px #CCC;
+    font-size:1em;
+    margin-top:20px;
+}
+
+.actions input:active {
+    background-color:#FFF;
+}
+
+#member {
+    font-size:.75em;
+    margin-top:10px;
+    text-align:center;
+    margin-bottom:60px;
+}
+.footer1 {
+    position:fixed;
+    padding-bottom:40px;
+    bottom:-20px;
+    text-align:center;
+    width:912px;
+    margin-left:-456px;
+    left:50%;
+    border-top: solid 1px black;
+    background-color:#FFF;
+}
+
+.footer1 li {
+    display:inline;
+    margin:20px;
+}

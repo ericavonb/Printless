@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<link href="/Users/michaeldesa/Dropbox/Printless/cssfiles/signupstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/Users/michaeldesa/Dropbox/Printless/js/jquery.js"></script>
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="tk6m/dUn3AIKOtIVl2d/uzDC6JKDBznq5v52m9RLG9A=" name="csrf-token" />
+  </head>
+
+<body>
+<div class="container">
+	
+<div class="header1">
+	<div class="topbar">
+	</div>
+
+	<div class="headcontainer">
+		<div class="toplinks">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/users/1">Profile</a></li>
+				<li><a href="/users/1/edit">Settings</a></li>
+				<li><a href="/signout" data-method="delete" rel="nofollow">Sign out</a></li>
+			</ul>
+		</div>
+		<div class="logo">
+			<a id="blacklargelogo" href="">
+				<img alt="Pllogoblack"
+				src="/Users/michaelldesa/Dropbox/Printless/images/pllogoblackandred.png" /></a>
+		</div>
+		<ul class="social" id="sociallinks">
+				<li><a id="twitter" href="https://twitter.com/#!/thePrintless">
+					Twitter</a></li>
+				<li><a id="fb" href="https://www.facebook.com">
+					Facebook</a></li>
+		</ul>
+		<div class="search">
+			<form method="get" action="http://google.com/search">
+				<input type="text" name="q" size="25" maxlength="255"
+				value="" placeholder="search" id="searchinput"/>
+				<input type="submit" value="" id="searchbutton"/>
+				<input type="hidden" name="sitesearch" value="www.theprintless.com"/>
+				</form>
+		</div>
+	</div>
+
+	<ul id="nav">
+		<li class="taba" id="tab1">
+			<a href="#">Projects</a>
+			<ul class="dropdown" id ="subsections1">
+				<li class="subsect" id="ss11"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss12"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss13"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss14"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss15"><a href="#">subsection5</a></li>
+			</ul>
+		</li>
+		<li class="taba" id="tab2">
+			<a href="#">Journalists</a>
+			<ul class="dropdown" id ="subsections2">
+				<li class="subsect" id="ss21"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss22"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss23"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss24"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss25"><a href="#">subsection5</a></li>
+			</ul>
+		</li>
+		<li class="tabb" id="tab3">
+			<a href="#">Subject 1</a>
+			<ul class="dropdown" id ="subsections3">
+				<li class="subsect" id="ss31"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss32"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss33"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss34"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss35"><a href="#">subsection5</a></li>
+			</ul>
+		</li>	
+		<li class="tabb" id="tab4">
+			<a href="#">Subject 2</a>
+			<ul class="dropdown" id ="subsections4">
+				<li class="subsect" id="ss41"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss42"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss43"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss44"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss45"><a href="#">subsection5</a></li>
+			</ul>
+		</li>	
+		<li class="tabb" id="tab5">
+			<a href="#">Subject 3</a>
+			<ul class="dropdown" id ="subsections5">
+				<li class="subsect" id="ss51"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss52"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss53"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss54"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss55"><a href="#">subsection5</a></li>
+			</ul>
+		</li>
+		<li class="tabb" id="tab6">
+			<a href="#">Subject 4</a>
+			<ul class="dropdown" id ="subsections6">
+				<li class="subsect" id="ss61"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss62"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss63"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss64"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss65"><a href="#">subsection5</a></li>
+			</ul>
+		</li>
+		<li class="tabb" id="tab7">
+			<a href="#">Subject 5</a>
+			<ul class="dropdown" id ="subsections7">
+				<li class="subsect" id="ss71"><a href="#">subsection1</a></li>
+				<li class="subsect" id="ss72"><a href="#">subsection2</a></li>
+				<li class="subsect" id="ss73"><a href="#">subsection3</a></li>
+				<li class="subsect" id="ss74"><a href="#">subsection4</a></li>
+				<li class="subsect" id="ss75"><a href="#">subsection5</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+
+<div class="signupform">
+	<h1>Sign up</h1>
+	<form accept-charset="UTF-8" action="/users" class="new_user"
+	id="new_user" method="post"><div style="margin:0;padding:0;display:inline">
+		<input name="utf8" type="hidden" value="&#x2713;" />
+		<input name="authenticity_token" type="hidden"
+		value="tk6m/dUn3AIKOtIVl2d/uzDC6JKDBznq5v52m9RLG9A=" />
+		<div class="field">
+	    	<label class="formlabel" for="user_name">Name</label>
+	    	<input id="user_name" name="user[name]" size="30" type="text" />
+	 	</div>
+		<div class="field">
+			<label class="formlabel" for="user_email">Email</label>
+			<input id="user_email" name="user[email]" size="30" type="text" />
+		</div>
+		<div class="field">
+			<label class="formlabel" for="user_password">Password</label>
+			<input id="user_password" name="user[password]" size="30" type="password" />
+		</div>
+		<div class="field">
+			<label class="formlabel" for="user_password_confirmation">Confirmation</label>
+			<input id="user_password_confirmation" name="user[password_confirmation]"
+			size="30" type="password" />
+		</div>
+		<div class="actions">
+			<input name="commit" type="submit" value="Sign up" />
+		</div>
+	</form>
+ </div>
+
+<div class="footer1">
+	<nav class="round">
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="/signup">Sign up</a></li>
+		</ul>
+	</nav>
+</div>
+
+	<script type="text/javascript">
+	var timeout    = 500;
+	var closetimer = 0;
+	var ddmenuitem = 0;
+
+	function nav_open()
+	{  nav_canceltimer();
+	   nav_close();
+	   ddmenuitem = $(this).find('ul').css('visibility', 'visible');}
+
+	function nav_close()
+	{  if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+	function nav_timer()
+	{  closetimer = window.setTimeout(nav_close, timeout);}
+
+	function nav_canceltimer()
+	{  if(closetimer)
+	   {  window.clearTimeout(closetimer);
+	      closetimer = null;}}
+
+	$(document).ready(function()
+	{  $('#nav > li').bind('mouseover', nav_open)
+	   $('#nav > li').bind('mouseout',  nav_timer)});
+
+	document.onclick = nav_close;
+	</script>
+</div>  
+</body>
+</html>

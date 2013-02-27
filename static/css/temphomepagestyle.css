@@ -1,0 +1,306 @@
+body {
+    font-family: 'Questrial', Helvetica, Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+    color:#999;
+}
+
+
+body a {color:#999; text-decoration:none}
+body a:link {color:#999; text-decoration:none;}
+body a:visted {color:#333; text-decoration:none;}
+body a:hover {color:#B20606; text-decoration:none;}
+body a:active {color:#000; text-decoration:none;}
+
+.header {
+    background: url('/images/pllogolong2.png') no-repeat;
+    background-position:center;
+    position:relative;
+    top:-20px;
+    width:100%;
+    height:120px;
+    right:0px;
+}
+
+.content {
+    position:relative;
+    width:700px;
+    height:350px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0px;
+    text-align:center;
+    
+}
+
+#email {    
+    width:200px;
+    height:20px;
+    display:block;
+    position:absolute;
+    left:102px;
+    background-color:#EFEFEF;
+    border-style:none;
+}
+#email:focus {
+    background-color:white;
+    outline: none;
+    border:solid 1px #000;
+}
+
+#submit {
+    display:block;
+    position:relative;
+    left:332px;
+    border:solid 1px #CCC;
+    background-color:#FFF;
+    font-size:1em;
+    margin-top:0px;
+    color:#666;
+}
+
+#submit:active {
+    background-color:#CCC;
+}
+
+#contact {
+    position:absolute;
+    text-align:right;
+    bottom:10px;
+    left:50px;
+}
+
+
+
+.container {
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:70px;
+
+}
+
+
+.journalist {
+    display:block;
+    position:relative;
+    margin-left:-56px;
+    left:0px;
+    height:50px;
+    width:500px;
+    margin-bottom:0px;
+    font-size:.8em;
+}
+
+#q {
+    display:block;
+    float:left;
+    margin-right:105px;
+    margin-left:102px;
+}
+#yes {
+display:block;
+float:left;
+margin-top:9px;
+}
+
+#no {
+display:block;
+float:left;
+margin-top:15px;
+}
+
+.emailcont {
+    position:relative;
+    display:block;
+    width:500px;
+    clear:left;
+    margin-left:-56px;
+}
+#contentwrapper {
+    display:none;
+}
+
+#newtake {
+    font-size:1.25em;
+    margin-bottom:30px;
+    margin-top:10px;
+    text-decoration:none;
+    margin-left:45px;
+    text-align:left;
+    color:#333;
+}
+
+#invite {
+    font-style: italics;
+    font-size:1em;
+    margin-top:40px;
+    margin-bottom:50px;
+    text-align:left;
+    margin-left:45px;
+    margin-right:50px;
+}
+
+#journalism {
+    font-size:1em;
+    color:#333;
+}
+#twitter {
+    display:block;
+    position:absolute;
+    right:80px;
+    bottom:10px;
+    width:25px;
+    height:25px;
+    background: url('/Users/michaeldesa/Dropbox/Printless/images/twitter_dualbw.png') left;
+    text-indent:-99999px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+#twitter:hover {
+    background-position: right;
+}
+
+#fb {
+    display:block;
+    position:absolute;
+    right:110px;
+    bottom:10px;
+    margin-left:10px;
+    width:25px;
+    height:25px;
+    background: url('/Users/michaeldesa/Dropbox/Printless/images/fb_dualbw.png') left;
+    text-indent:-99999px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+#fb:hover {
+    background-position: right;
+}
+
+.overlay {
+  display: none;
+  background: rgba(128,128,128,0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 120;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+.overlay .content {
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  margin: 100px auto;
+  background: #f1f1f1;
+  padding: 10px 30px;
+}
+.overlay .content h1 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 30px;
+}
+.overlay .content .cancel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+.overlay .content .cancel:hover {
+  color: #b44326;
+}
+.overlay .content form #usernameForm,
+.overlay .content form #passwordForm {
+  height: 90px;
+}
+.overlay .content form #usernameForm label,
+.overlay .content form #passwordForm label {
+  text-align: center;
+  margin: 0px 0px;
+  display: block;
+  font-size: 15px;
+}
+.overlay .content form #usernameForm input,
+.overlay .content form #passwordForm input {
+  width: 298px;
+  margin: 15px auto 10px auto;
+  display: block;
+}
+.overlay .content form #usernameForm .error,
+.overlay .content form #passwordForm .error {
+  display: none;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  font-style: italic;
+  color: #b44326;
+}
+.overlay .content form #usernameForm .error span,
+.overlay .content form #passwordForm .error span {
+  font-style: normal;
+  margin-left: 10px;
+}
+.overlay .content form #logInSubmit input {
+  margin: 0px auto 30px auto;
+  display: block;
+  background: #808080;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+.overlay .content form #logInSubmit input:hover {
+  background: #404040;
+}
+.overlay .content .otherOptions {
+  margin: 0px auto 40px auto;
+  width: 400px;
+  zoom: 1;
+}
+.overlay .content .otherOptions:before,
+.overlay .content .otherOptions:after {
+  content: "";
+  display: table;
+}
+.overlay .content .otherOptions:after {
+  clear: both;
+}
+.overlay .content .otherOptions li {
+  float: left;
+  text-align: center;
+  width: 200px;
+}
+.overlay .content .otherOptions li a {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.overlay .content .otherOptions li a:hover {
+  font-weight: normal;
+}
+.cornerBanner {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 40px;
+  width: 180px;
+  padding: 10px 77.12592026968457px;
+  position: absolute;
+  top: 28.142729851235373px;
+  left: -81.25311793055536px;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+  background: #3e444d;
+  line-height: 20px;
+}

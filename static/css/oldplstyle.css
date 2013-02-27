@@ -1,0 +1,160 @@
+/*CSS Stylessheet for Printless homepage.*/
+
+/*Basics*/
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:1em;
+	color:#000;
+}
+
+
+body a {color:#000; text-decoration:none;}
+body a:link {color:#000; text-decoration:none;}
+body a:visted {color:#333; text-decoration:none;}
+body a:hover {color:#C00; text-decoration:none;}
+body a:active {color:#333; text-decoration:none;}
+
+
+ul {list-style-type:none;}
+
+h4 {
+	font-size:1.2em;
+	text-decoration:none;
+}
+
+/*The Header*/
+.header {
+	display:block;
+	width:950px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+.logo {
+	display:block;
+	position:absolute;
+	left:70px;
+	top:50px;
+}
+.usermenu {
+	display:block;
+	right:5px;
+	top:0px;
+}
+.usermenu li {
+	float: right;
+	margin:0px 10px 10px 10px ;
+}
+.social_links {
+	float:right;
+	clear:right;
+	position:relative;
+	top:120px;
+	right:5px;
+}
+.social_links li {
+	float:right;
+	margin:0px 10px 0px 10px ;
+}
+.search {
+	display:block;
+	float:right;
+	position:relative;
+	margin-right:30px;
+	top:-2px;
+}
+
+/*The main navigation*/
+.nav {
+	display:block;
+	width:950px;
+	height:20px;
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+.nav li {
+	display:inline;
+	width:20%;
+	float:right;
+}
+
+/*The homepage's content*/
+.content {
+	display:block;
+	position:relative;
+	width:950px;
+	background-color:#666;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.articles {
+	display:block;
+	float:left;
+	left:300px;
+	width:650px;
+} 
+.top_article_sample {
+	display:block;
+	width:100%;
+	height:200px;
+}
+.top_article_sample img{
+	float:left;
+}
+.top_article_sample_text {
+}
+.top_article_sample h4 {
+	text-align:center;
+}
+.byline {
+	text-decoration:bold;
+
+}
+
+.fundraisers {
+	display:block;
+	float:left;
+	left:0px;
+	top:0px;
+	float:left;
+	width:300px;
+}
+
+/*The footer*/
+.footer {
+	display:block;
+	clear:both;
+	text-align:center;
+	padding:50px;
+	top-margin:10px;
+}
+.footer li{
+	display:inline;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

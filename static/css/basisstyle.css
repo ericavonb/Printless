@@ -1,0 +1,109 @@
+/*CSS Stylesheet for Printless homepage for screens.*/
+
+
+/*Basics*/
+
+body {
+	display:block;
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	color:#000;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+body a {color:#000; text-decoration:none;}
+body a:link {color:#000; text-decoration:none;}
+body a:visted {color:#333; text-decoration:none;}
+body a:hover {color:#C00; text-decoration:none;}
+body a:active {color:#333; text-decoration:none;}
+
+ul {
+	list-style-type:none;
+}
+h4 {
+	font-size:16px;
+	text-decoration:none;
+}
+.header {
+	display:block; width:100%; height:200px;
+	margin:0px;
+	padding:0px;
+}
+
+.header li { float:left;
+}
+
+.header a
+{
+display:block;
+width:3.5em;
+margin:5px 5px 0px 0px;
+}
+.logo {
+	display:block;
+	float:left;
+	border:0px;
+	margin:70px 0px 0px 50px;
+	padding:0px;
+}
+.user_menu {
+	display:block;
+	float:right;
+	boarder:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.social_links {
+	display:block;
+	right:10px;
+	top:120px;
+	margin:0px;
+	boarder:0px;
+	padding:0px;
+}
+
+.social_links img {
+	width:20px;
+	float:left;
+}
+
+.nav {
+	background-color:#000000;
+	display:block;
+	width:100%;
+	height:20px;
+	font-family:Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+.nav a { color:#666;}
+.nav a:link { color:#666; text-decoration:none;}
+.nav a:visted {text-decoration:none;}
+.nav3 ul {
+	display:block;
+	width:100%;
+	height:30px;
+}
+	
+.nav3 li {
+	display:block;
+	float:left;
+	width:20%;
+	text-align:center;
+}
+.menu li {
+	display:inline;
+	text-align:center;
+}
+.footer {
+	text-align:center;
+	padding:50px;
+}
+	
+	
